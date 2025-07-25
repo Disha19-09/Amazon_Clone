@@ -47,6 +47,9 @@
     width: 800px;
     border-radius: 4px;
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 .search-select{
     background-color: #f3f3f3;
     width: 50px;
@@ -67,5 +70,67 @@
     background-color: #febd68;
     border-top-right-radius: 4px;
     border-top-right-radius: 4px;
+}
+span{
+    font-size: 0.7rem ;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 90%;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.hero-messege{
+    background-color: white;
+    height:40px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 85%;
+    margin-bottom: 25px;
+}
+.hero-messege a{
+    color: #2162A1;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
     
 }
